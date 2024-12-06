@@ -22,7 +22,7 @@ const Login = () => {
         <form onSubmit={handleFormSubmit}>
             {error && <p>{error}</p>}
           <div>
-            <label>UserName</label>
+            <label>Username:</label>
             <input
               type="text"
               placeholder="username"
@@ -32,7 +32,7 @@ const Login = () => {
             />
           </div>
           <div>
-            <label>Password</label>
+            <label>Password:</label>
             <input
               type="password"
               placeholder="password"
