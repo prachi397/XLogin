@@ -8,7 +8,7 @@ const Login = () => {
 
   function handleFormSubmit(e) {
     e.preventDefault();
-    if (userName === "username" && password === "password") {
+    if (userName === "user" && password === "password") {
       setError("");
       setIsValidated(true);
     } else {
@@ -44,7 +44,7 @@ const Login = () => {
           <button type="submit">Submit</button>
         </form>
       ) : (
-        <h3>Welcome, user!</h3>
+        <p>Welcome, user!</p>
       )}
     </div>
   );
